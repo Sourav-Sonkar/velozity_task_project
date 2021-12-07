@@ -27,7 +27,7 @@ class LoginScreen extends StatelessWidget {
               );
           }
           if (state.isSuccess) {
-            Navigator.pushNamed(context, RestaurantScreen.routeName);
+            Navigator.pushReplacementNamed(context, RestaurantScreen.routeName);
           }
         },
         child: Scaffold(
